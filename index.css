@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body{
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to left, #8e0e00, #1f1c18);
+}
+
+#container{
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0  3px rgb(0, 0, 0,0.1);
+  border-radius: 20px;
+}
+
+h1{
+  background: #1f0304;
+  color: #fff;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p{
+  padding-left: 20px;
+
+}
+
+
+
+form input[type="text"] {
+  width: 90px;
+}
+
+input{
+  padding-left: 20px;
+}
+
+#billamt{
+  font-size: 14px;
+  color:red;
+  background: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+
+}
+
+#billamt:focus{
+    background-color: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+#peopleamt:focus{
+  background-color: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#peopleamt {
+  width: 60%;
+  padding: 5px 5px 8px 8px ;
+  margin-left: 20px;
+  color: red;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+#serviceQual{
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 25px; 
+}
+
+button {
+  text-transform: uppercase;
+  display: block;
+  margin: 30px auto;
+  background-color: #ad133a;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: #fff;
+  outline: none;
+}
+
+button:hover{
+  background-color: #4c2827;
+  border-bottom-color: #111;
+}
+
+button:active{
+  position: relative;
+  top: 1px;
+}
+
+#totalTip{
+  font-size: 30px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+#totalTip:before{
+  content: "Tip Amount";
+  font-size: 20px;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totaTip sub {
+  font-size: 20px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  display: block;
+}
